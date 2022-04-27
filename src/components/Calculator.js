@@ -34,7 +34,7 @@ export default function Calculator() {
     '+',
     '0',
     '.',
-    '=',
+    '='
   ];
   return (
     <div className="calculator">
