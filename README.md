@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
   .
 
 ```
-git clone  <git@github.com:Alfredbis29/Math-Magicians.git>
+git clone  <git@github.com:Alfredbis29/Math-Magicians2.git>
 ```
 
 - run `npm i` to install all dependencies
