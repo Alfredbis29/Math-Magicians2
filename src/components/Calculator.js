@@ -45,7 +45,7 @@ class Calculator extends Component {
       '+',
       '0',
       '.',
-      '=',
+      '='
     ];
     return (
       <div className="calculator">
