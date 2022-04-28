@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { useState } from 'react';
-//use hook useState to add state to the component.
+// use hook useState to add state to the component.
 import calculate from '../logic/calculate';
 import Button from './Button';
 
