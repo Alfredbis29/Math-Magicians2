@@ -1,7 +1,7 @@
 # Math-Magicians
 
 > Math-Magicians is a web-app for performing arithmetical operations (as multiplication,addition,division,substration,..) that are usually more complex than can be done on an adding machine
-> — called also calculator
+> — called also calculator.
 
 [Live Demo] Not Available
 
