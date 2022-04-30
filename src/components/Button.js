@@ -9,7 +9,7 @@ export default function Button({ value, handleClick }) {
       className={`btn ${
         ['÷', 'x', '-', '+', '='].includes(value) ? 'primary' : ''
       } ${value === '0' ? 'zero' : ''}`}
-      value="AC"
+      value="AC
       onClick={() => handleClick(value)}
     >
       {value}
