@@ -10,7 +10,7 @@
   --border: 2px solid #d1d1d1;
   --trans: all 0.1s ease-in;
   --dark: #091a40;
-  --font: sans-serif;
+  --font: arial;
 }
 
 /* resets */
@@ -109,6 +109,8 @@ a:hover {
 /* home */
 p {
   margin-bottom: 10px;
+  font-family: var(--grey);
+  font-size: 45px;
 }
 
 /* calculator */
