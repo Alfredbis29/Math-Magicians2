@@ -80,14 +80,14 @@ a:hover {
 
 .header .nav_bar .nav_items li a {
   padding: 1rem 1rem;
-  display: block;
+  display: flex;
   position: relative;
 }
 
 /* grid */
 .display_sec {
-  min-height: calc(100vh - 60px);
-  width: 100%;
+  min-height: calc(85vh - 40px);
+  width: 85%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -96,7 +96,7 @@ a:hover {
 
 .container {
   max-width: 920px;
-  width: 100%;
+  width: 90%;
   margin: 0 5%;
 }
 
@@ -104,6 +104,8 @@ a:hover {
   font-size: 25px;
   text-align: center;
   margin: 50px 0;
+  display: flex;
+  align-items: flex-start;
 }
 
 /* home */
