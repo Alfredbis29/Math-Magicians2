@@ -96,16 +96,22 @@ a:hover {
 
 .container {
   max-width: 920px;
-  width: 90%;
+  width: 100%;
   margin: 0 5%;
+  display: block;
+}
+
+.flexin {
+  align-items: center;
+  display: inline-flex;
+  margin-top: 60px;
+  padding: 30px;
 }
 
 .title {
   font-size: 25px;
-  text-align: center;
-  margin: 50px 0;
-  display: flex;
   align-items: flex-start;
+  margin-bottom: 10px;
 }
 
 /* home */
@@ -118,6 +124,7 @@ p {
 /* calculator */
 .calculator {
   max-width: 60%;
+  max-height: 40%;
   margin: 0 auto;
   background: antiquewhite;
   border-radius: var(--radius);
