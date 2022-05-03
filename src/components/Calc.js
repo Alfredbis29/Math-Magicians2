@@ -1,10 +1,8 @@
-/* eslint-disable react/prefer-stateless-function */
 import React, { useState } from 'react';
-// use hook useState to add state to the component.
 import calculate from '../logic/calculate';
 import Button from './Button';
 
-const Calculator = () => {
+export default function Calc() {
   const [calcObj, setCalcObj] = useState({
     total: null,
     next: null,
@@ -55,6 +53,4 @@ const Calculator = () => {
       </div>
     </div>
   );
-};
-
-export default Calculator;
+}

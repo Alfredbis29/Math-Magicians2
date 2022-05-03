@@ -3,36 +3,128 @@
 /* variables */
 :root {
   --radius: 13;
-  --grey: #858694;
+  --grey: #3a83a5;
   --white: #fff;
   --primary: #f5913e;
   --secondary: #e0e0e0;
   --border: 2px solid #d1d1d1;
   --trans: all 0.1s ease-in;
-  --font: 'Righteous', cursive;
+  --dark: #091a40;
+  --font: arial;
 }
 
 /* resets */
-html {
-  font-size: 62.5%;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
+/* general */
 body {
   line-height: 1.5;
+  font-size: 17px;
+  font-weight: normal;
   font-family: var(--font);
+  color: var(--dark);
 }
 
+a {
+  text-decoration: none;
+  color: var(--dark);
+  transition: var(--trans);
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+/* header */
+
+.header {
+  padding: 0 1.6rem;
+  border: var(--border);
+  border-radius: var(--radius);
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.header .nav_bar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .nav_bar .nav_brand:hover {
+  color: var(--dark);
+}
+
+.header .nav_bar .nav_items {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+.header .nav_bar .nav_items li:not(:first-child)::after {
+  content: '';
+  width: 2px;
+  background: var(--dark);
+  height: 50%;
+  position: absolute;
+  top: 25%;
+}
+
+.header .nav_bar .nav_items li a {
+  padding: 1rem 1rem;
+  display: flex;
+  position: relative;
+}
+
+/* grid */
+.display_sec {
+  min-height: calc(85vh - 40px);
+  width: 85%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 5%;
+  display: block;
+}
+
+.flexin {
+  align-items: center;
+  display: inline-flex;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 25px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+/* home */
+p {
+  margin-bottom: 10px;
+  font-family: var(--grey);
+  font-size: 45px;
+}
+
+/* calculator */
 .calculator {
   max-width: 60%;
+  max-height: 40%;
   margin: 0 auto;
   background: antiquewhite;
   border-radius: var(--radius);
