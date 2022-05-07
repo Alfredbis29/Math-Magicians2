@@ -15,7 +15,7 @@ export default function Calc() {
 
   const result = calcObj.next || calcObj.total;
   const btnData = [
-    'AC',
+    'AC'
     '+/-',
     '%',
     '÷',
